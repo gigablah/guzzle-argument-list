@@ -1,0 +1,23 @@
+{
+    "name": "gigablah/guzzle-argument-list",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "A trait for the Guzzle Service Client that allows operations to be called with an argument list.",
+    "keywords": ["guzzle", "command", "api", "operation"],
+    "homepage": "https://github.com/gigablah/guzzle-argument-list",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Chris Heng",
+            "email": "bigblah@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gigablah\\GuzzleHttp\\Command\\": "src/"
+        }
+    }
+}

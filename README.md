@@ -3,15 +3,21 @@ ArgumentListTrait
 
 Use this trait in your Guzzle Service Client. Instead of:
 
-    $result = $client->foo(['id' => 1, 'baz' => 'bar']);
+```php
+$result = $client->foo(['id' => 1, 'baz' => 'bar']);
+```
 
 You can now do this:
 
-    $result = $client->foo(1, ['baz' => 'bar']);
+```php
+$result = $client->foo(1, ['baz' => 'bar']);
+```
 
 Or this:
 
-    $result = $client->foo(1, 'bar');
+```php
+$result = $client->foo(1, 'bar');
+```
 
 Arguments are matched with parameters according to their order in the service description.
 
